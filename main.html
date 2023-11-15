@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../nurnburger_prozes/design_main.css">
+    </head>
+    <body>
+        <div class="background_images" id="test2">
+        <div id="willkommen_text" class="willkommen_text"></div>
+        </div>
+    </body>
+    <script src="../nurnburger_prozes/script_main.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            typing();
+            slide_main_page();
+            document.addEventListener('keydown', function(event) {
+                if (event.key === ' ' || event.key === 'Spacebar' || event.key === 'ArrowRight') {
+                    openAnotherFile();
+                }
+            });
+        });
+    </script>
+</html>
