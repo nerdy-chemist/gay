@@ -1,4 +1,11 @@
 {"enemy":
-    {"damage":"10",
+    {
+        "damage":"10",
         "health":"110",
-        "maxhealth":"110","state":"Neutral","type":"Bat"},"player":{"equipped":{"weapon":{"damage":"12","modifier":"tiny","type":"Club"}},"experience":"0","health":"100","level":"0","maxhealth":"100","weapon":{"damage":"15","modifier":"smoll","type":"Sword"}}}
+        "maxhealth":"110",
+        "state":"Neutral",
+        "type":"Bat"
+    },
+    "player":
+    {
+        "equipped":{"weapon":{"damage":"12","modifier":"tiny","type":"Club"}},"experience":"0","health":"100","level":"0","maxhealth":"100","weapon":{"damage":"15","modifier":"smoll","type":"Sword"}}}
